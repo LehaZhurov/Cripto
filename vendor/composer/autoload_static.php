@@ -39,11 +39,13 @@ class ComposerStaticInit1b0b379f8deb75745e8ebd780bd3d671
     public static $classMap = array (
         'App\\Commands\\DefaultTask' => __DIR__ . '/../..' . '/app/Commands/DefaultTask.php',
         'App\\Commands\\RotateLogsTask' => __DIR__ . '/../..' . '/app/Commands/RotateLogsTask.php',
+        'App\\Controllers\\ApiController' => __DIR__ . '/../..' . '/app/Controllers/ApiController.php',
         'App\\Controllers\\DefaultController' => __DIR__ . '/../..' . '/app/Controllers/DefaultController.php',
         'App\\Middleware\\After\\DefaultMiddlewareAfter' => __DIR__ . '/../..' . '/app/Middleware/After/DefaultMiddlewareAfter.php',
         'App\\Middleware\\Before\\DefaultMiddlewareBefore' => __DIR__ . '/../..' . '/app/Middleware/Before/DefaultMiddlewareBefore.php',
         'App\\Models\\DefaultModel' => __DIR__ . '/../..' . '/app/Models/DefaultModel.php',
         'App\\Optional\\MainConnector' => __DIR__ . '/../..' . '/app/Optional/MainConnector.php',
+        'App\\Queries\\GetDateTimeQuery' => __DIR__ . '/../..' . '/app/Queries/GetDateTimeQuery.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DB' => __DIR__ . '/../..' . '/database/DB.php',
         'DeterminantStaticUncreated' => __DIR__ . '/..' . '/phphleb/framework/Main/Insert/DeterminantStaticUncreated.php',

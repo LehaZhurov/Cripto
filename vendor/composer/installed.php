@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'phphleb/hleb',
-        'pretty_version' => 'v1.6.65',
-        'version' => '1.6.65.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'd4ddfff51668dc8f7d8fb5892ede81da0a0dacda',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'phphleb/hleb' => array(
-            'pretty_version' => 'v1.6.65',
-            'version' => '1.6.65.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'd4ddfff51668dc8f7d8fb5892ede81da0a0dacda',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

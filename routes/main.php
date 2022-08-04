@@ -1,5 +1,4 @@
 <?php
-
 /*
  * Main file for creating a routing map.
  * The routes change when the files in this folder are changed. If there is a time difference between the servers,
@@ -10,5 +9,10 @@
  * «php console -routes-cc» или удалить кешированный файл «routes.txt» после внесения изменений.
  */
 
-Route::get("/", 'Work');
+
+Route::type(['get', 'post'])->get("/")->controller("DefaultController@index");
+
+Route::type(['get', 'post'])->get("/api/")->controller("ApiController@index");
+
+
 

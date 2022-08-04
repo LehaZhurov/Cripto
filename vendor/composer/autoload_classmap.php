@@ -8,11 +8,13 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Commands\\DefaultTask' => $baseDir . '/app/Commands/DefaultTask.php',
     'App\\Commands\\RotateLogsTask' => $baseDir . '/app/Commands/RotateLogsTask.php',
+    'App\\Controllers\\ApiController' => $baseDir . '/app/Controllers/ApiController.php',
     'App\\Controllers\\DefaultController' => $baseDir . '/app/Controllers/DefaultController.php',
     'App\\Middleware\\After\\DefaultMiddlewareAfter' => $baseDir . '/app/Middleware/After/DefaultMiddlewareAfter.php',
     'App\\Middleware\\Before\\DefaultMiddlewareBefore' => $baseDir . '/app/Middleware/Before/DefaultMiddlewareBefore.php',
     'App\\Models\\DefaultModel' => $baseDir . '/app/Models/DefaultModel.php',
     'App\\Optional\\MainConnector' => $baseDir . '/app/Optional/MainConnector.php',
+    'App\\Queries\\GetDateTimeQuery' => $baseDir . '/app/Queries/GetDateTimeQuery.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DB' => $baseDir . '/database/DB.php',
     'DeterminantStaticUncreated' => $vendorDir . '/phphleb/framework/Main/Insert/DeterminantStaticUncreated.php',
